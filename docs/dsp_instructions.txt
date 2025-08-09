@@ -1,0 +1,9 @@
+-
+32 dsp instructions
+-
+20000000  // ADDI $0, $0, 0 
+8C040000  // LW $4, 0($0)   - Load value from memory address 0 into $4
+8C050004  // LW $5, 4($0)   - Load value from memory address 4 into $5
+00853020  // ADD $6, $4, $5 - Add $4 and $5, store in $6
+AC060008  // SW $6, 8($0)   - Store $6 into memory address 8
+00852022  // SUB $7, $4, $5 - Subtract $5 from $4, store in 

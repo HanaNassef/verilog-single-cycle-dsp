@@ -1,0 +1,40 @@
+//DSP instructions
+04200801
+04401001
+04601801
+04802001
+04A02801
+04C03001
+04E03801
+05004001
+05204801
+05405001
+05605801
+05806001
+05A06801
+05C07001
+05E07801
+06008001
+06208801
+06409001
+06609801
+0680A001
+06A0A801
+06C0B001
+06E0B801
+0700C001
+0720C801
+0740D001
+0760D801
+0780E001
+07A0E801
+07C0F001
+07E0F801
+
+// Load values from memory
+20000000  // ADDI $0, $0, 0 (NOP)
+8C040000  // LW $4, 0($0)   - Load value from memory address 0 into $4
+8C050004  // LW $5, 4($0)   - Load value from memory address 4 into $5
+00853020  // ADD $6, $4, $5 - Add $4 and $5, store in $6
+AC060008  // SW $6, 8($0)   - Store $6 into memory address 8
+00852022  // SUB $7, $4, $5 - Subtract $5 from $4, store in $7
