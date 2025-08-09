@@ -23,7 +23,7 @@ This project implements a **single-cycle CPU architecture** with an integrated D
 ## Documentation
 See the full [project paper](docs/Project_Report.pdf) for architecture, implementation, and results.
 
-## Tools Used
+## Tools & Languages
 - Xilinx Vivado
 - Verilog HDL
 
