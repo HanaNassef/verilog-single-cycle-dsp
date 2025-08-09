@@ -27,3 +27,7 @@ See the full [project paper](docs/Project_Report.pdf) for architecture, implemen
 - Xilinx Vivado
 - Verilog HDL
 
+> **Note:**  
+> This project was developed as part of a university teamwork assignment.  
+> Special thanks to my teammates for their collaboration and effort.
+
