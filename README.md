@@ -21,7 +21,7 @@ This project implements a **single-cycle CPU architecture** with an integrated D
 4. Run simulation or synthesis
 
 ## Documentation
-See the full [project paper](docs/project-paper.pdf) for architecture, implementation, and results.
+See the full [project paper](docs/Project_Report.pdf) for architecture, implementation, and results.
 
 ## Tools Used
 - Xilinx Vivado
